@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 
-
 int main(){
 	// input
 	// calculo com erros sintáticos
@@ -18,7 +17,7 @@ int main(){
  	scanf("%f", &c );
 
  	x1 = (-1.0 * b + sqrt(pow(b,2) - 4.0 * a * c)) /(2.0 * a);
- 	x2 = (-1.0 * b - sqrt(pow(b,2) + 4.0 * a * c)) /(2.0 * a);
+ 	x2 = (-1.0 * b - sqrt(pow(b,2) - 4.0 * a * c)) /(2.0 * a);
  	printf("raizes x1 = %f \n e x2 = %f \n",x1,x2);
  	return 0;
 }
